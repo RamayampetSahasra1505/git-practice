@@ -1,0 +1,8 @@
+class solution
+def get middle(self,head):
+    slow=head
+    fast=head
+    while(fast!=none andfast.next!=none):
+        slow=slow.next
+        fast=fast.next.next
+    return slow.data
